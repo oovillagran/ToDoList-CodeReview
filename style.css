@@ -1,8 +1,18 @@
-/* Global Styles */
 html {
   box-sizing: border-box;
-  line-height: 1.15;
+  font-family: 'Lobster Two', cursive;
+  font-size: 16px;
   -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(70, 159, 252, 1) 77%);
+}
+
+.activities {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(70, 159, 252, 1) 77%);
 }
 
 *,
@@ -11,271 +21,134 @@ html {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
-
-  /* outline: 1px solid red !important; */
 }
 
-h1,
-h3 {
-  font-family: 'COCOGOOSE', sans-serif;
-  font-size: 3rem;
-  font-weight: 100;
-  line-height: 1;
-  letter-spacing: -8%;
-  text-align: center;
-}
-
-#date,
-a,
-span,
-p,
-button,
-div {
-  font-family: 'Lato', sans-serif;
-}
-
-h3 {
-  font-family: 'COCOGOOSE', sans-serif;
-}
-
-p {
-  font-size: 1rem;
-}
-
-span {
-  font-size: 0.7rem;
-  font-weight: 600;
-}
-
-.gray-line {
-  width: 5rem;
-  height: 0.2rem;
-  background-color: gray;
-  margin: 1rem;
-}
-
-/* Menu styles */
-nav.menu {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
-  width: 100%;
-  height: 3rem;
-  background-color: #3e3e3e;
-}
-
-.menu ul {
-  display: flex;
-  list-style: none;
-  align-items: center;
-}
-
-.menu a {
-  color: white;
-  text-decoration: none;
-  padding: 0.8rem;
-  border-radius: 0.4rem;
-}
-
-nav a:hover,
-nav a:focus {
-  background-color: #333;
-  color: #fff;
-}
-
-.menu-link {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
-  padding: 0 1rem;
-  transition-property: all;
-  transition-duration: 0.7s;
-}
-
-.image-container div {
-  display: flex;
-  flex-direction: row;
-}
-
-#logo img {
-  align-items: center;
-  height: 1rem;
-}
-
-/* Main */
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem 5rem 5rem 5rem;
-  align-items: center;
-}
-
-/* Actual time and date */
-#date {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-  width: 100%;
-  margin-bottom: 3rem;
-}
-
-/* Book Shelf styles */
-#book-list {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
-}
-
-#library {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #d0d9d4;
-  border-radius: 20px;
-  width: 80%;
-  height: min-content;
-  padding: 1rem;
-  margin-bottom: 2rem;
-  gap: 1rem;
-}
-
-#library div {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 1rem;
-  width: 90%;
-  height: 3.5rem;
-  background-color: #ebf0ee;
-  border-radius: 5px;
-}
-
-#library div span {
+.main-activities {
+  margin: 0 30%;
   position: absolute;
-  top: 0.6rem;
-  left: 0.6rem;
-  margin-bottom: 1rem;
-  color: dimgrey;
-}
-
-#library div h2 {
-  text-align: center;
-  margin: 0 1rem 0 1.5rem;
-  width: 50%;
-  max-height: min-content;
-}
-
-footer p {
-  color: white;
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-#library div p {
-  text-align: center;
-  padding-left: 1rem;
-}
-
-form button {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  font-weight: bold;
-  text-align: center;
-  background-color: #36b37f;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  padding: 0.8rem;
-  height: 2rem;
-}
-
-#library button {
-  position: absolute;
+  background-color: aquamarine;
+  width: 35%;
   top: 50%;
-  left: 90%;
-  transform: translate(-50%, -50%);
-  border: none;
-  background-color: lightcoral;
-  padding: 0.5rem;
-  border-radius: 5px;
-  color: white;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
-/* Form styles */
-#add-section {
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
-}
-
-#add-form {
+.title {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  padding: 1rem;
+  justify-content: space-between;
 }
 
-#title,
-#author {
-  border: 1px solid #d0d9d4;
-  border-radius: 4px;
+.activities-list {
+  list-style: none;
+  margin-left: 1rem;
+}
+
+.update {
+  margin: auto 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.input-div {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-title {
+  margin-left: 1rem;
+}
+
+.activities-input {
+  margin-left: 1rem;
   height: 2rem;
+  width: 30rem;
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.5rem;
+  color: #807575;
 }
 
-#error {
-  font-weight: 600;
-  color: #ff6163;
-  padding-top: 1rem;
-  align-self: flex-end;
+input::placeholder {
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
 }
 
-/* Contact Styles */
-#contact-info {
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
+li {
+  margin-bottom: 0.5rem;
 }
 
-#contact-info p:nth-child(3) {
-  padding: 1rem;
+.li-activity {
+  font-family: 'Lobster Two', cursive;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  height: 2rem;
+  width: 29rem;
 }
 
-#contact-info li {
-  padding: 0.4rem 0;
+.footer {
+  height: 3rem;
+  background-color: #f6f6f6;
+  text-align: center;
 }
 
-#contact-info a {
-  color: #36b;
+.button {
+  text-align: center;
+  margin: auto;
+  padding-top: 0.5rem;
+  text-decoration: underline;
+  width: 100%;
+  background-color: #f6f6f6;
+  border: none;
+  cursor: pointer;
 }
 
-/* Footer Styles */
-footer {
+.box.checked {
+  background: aquamarine;
+  color: #000;
+  font-weight: 700;
+  border: none;
+  font-size: 1rem;
+}
+
+.todoactivities {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
-  padding: 1rem 3rem;
-  background-color: #3e3e3e;
-  margin-top: auto;
-  width: 100%;
+}
+
+.delete-button {
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.box {
+  background-color: #fff;
+  color: #fff;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: solid 1px #807575;
+}
+
+.tasks-list {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.li-activity.checked {
+  background: aquamarine;
+  border: none;
+  text-decoration: line-through;
+  text-decoration-style: double;
+}
+
+.delete-button.show-trash .trash {
+  display: block;
+}
+
+.ellipse {
+  display: none;
 }
