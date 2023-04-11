@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <h3><b>Project Review (Trials)</b></h3>
+  <h2><b>To Do List Code Review (Partner)</b></h2>
 
 </div>
 
@@ -11,32 +11,35 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 To Do List Parner Review](#-to-do-list-parner-review)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Project Review (Trials)<a name="about-project"></a>
+# 📖 To Do List Parner Review<a name="about-project"></a>
 
 
-**Project Review (Trials)** intends to execute my first code review, as in week number one from Microverse software developer program I upgraded my knowledge and skills in *HTML* and *CSS*. This code review is going to be performance about the **Built a Survey Form project** from trials done in the admission proccess.
+**To Do List Parner Review** focused on perform a code review, looking if the code is doing thinking in the best practices:
+- [JavaScript best practices](https://github.com/microverseinc/curriculum-html-css/blob/main/articles/javascript_best_practices.md).
+- [DRY, KISS, and YAGNI rules](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/clean-code/lesson_DRY_KISS_YAGNI.md).
+- [HTML & CSS best practices](https://github.com/microverseinc/curriculum-html-css/blob/main/articles/html_css_best_practices.md).
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -57,6 +60,13 @@
   </ul>
 </details>
 
+<details>
+  <summary>JavaScript</summary>
+  <ul>
+    <li>JavaScript</li>
+  </ul>
+</details>
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -74,7 +84,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- N/A
+- Here you can see a [live demo](https://oovillagran.github.io/To-Do-List-Code-Review/index.html).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,7 +110,7 @@ Clone this repository to your desired folder:
  
  ```bash
  cd my-folder
- git clone git@github.com:oovillagran/Portfolio-project.git
+ git clone git@github.com:oovillagran/To-Do-List-Code-Review.git
 ```
 
 ### Install
