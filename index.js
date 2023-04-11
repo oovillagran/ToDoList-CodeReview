@@ -4,7 +4,7 @@ class TaskManager {
     this.storageKey = 'tasks';
   }
 
-    // Create a new task object 
+  // Create a new task object
 
     createTask = (description) => {
       const newTask = {
@@ -136,7 +136,7 @@ activitiesInput.addEventListener('keypress', (e) => {
   }
 });
 
-// delete icon action 
+// delete icon action
 
 const deleteButton = document.querySelectorAll('.trash');
 deleteButton.forEach((button) => {
@@ -146,7 +146,6 @@ deleteButton.forEach((button) => {
     window.location.reload();
   });
 });
-
 
 // update activity event listener
 
